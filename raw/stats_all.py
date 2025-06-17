@@ -1,4 +1,4 @@
-ADMIN_IDS = [123456789]  # Замени на свои ID
+ADMIN_IDS = [123456789]  
 
 class IsAdmin(Filter):
     async def __call__(self, message: Message) -> bool:
